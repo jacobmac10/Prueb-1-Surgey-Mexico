@@ -95,6 +95,7 @@ hr {
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
+  
 }
 
 hr:not([size]) {
@@ -3032,6 +3033,7 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #0d6efd;
   border-color: #0d6efd;
+  align-items: center;
 }
 .btn-primary:hover {
   color: #fff;
@@ -4062,6 +4064,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -4118,6 +4121,7 @@ textarea.form-control-lg {
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
+  
 }
 
 @media (min-width: 576px) {
@@ -4226,10 +4230,12 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
+
 @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
+    
   }
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
@@ -7782,6 +7788,12 @@ textarea.form-control-lg {
 .text-white-50 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
+  
+}
+
+.main-title, h1{
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .text-reset {
@@ -7842,7 +7854,8 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #60bda9 !important;
+  
 }
 
 .bg-black {
